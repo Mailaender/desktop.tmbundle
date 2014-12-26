@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>Folding</string>
 	<key>scope</key>
-	<string>source.ini</string>
+	<string>source.desktop</string>
 	<key>settings</key>
 	<dict>
 		<key>foldingStartMarker</key>
@@ -13,7 +13,5 @@
 		<key>foldingStopMarker</key>
 		<string>\[</string>
 	</dict>
-	<key>uuid</key>
-	<string>28C95F8C-1665-43B5-B8E6-777D17E7765F</string>
 </dict>
 </plist>

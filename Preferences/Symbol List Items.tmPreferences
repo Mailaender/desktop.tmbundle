@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>Symbol List Items</string>
 	<key>scope</key>
-	<string>source.ini entity.name.section.group-title.ini</string>
+	<string>source.desktop entity.name.section.group-title.desktop</string>
 	<key>settings</key>
 	<dict>
 		<key>showInSymbolList</key>
@@ -13,7 +13,5 @@
 		<key>symbolTransformation</key>
 		<string>s/^\[(\w+)\]$/  $1/;</string>
 	</dict>
-	<key>uuid</key>
-	<string>44CAEF12-223E-11DB-BE7D-0011242E4184</string>
 </dict>
 </plist>

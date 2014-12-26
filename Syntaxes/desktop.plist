@@ -4,13 +4,12 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
-		<string>ini</string>
-		<string>conf</string>
+		<string>desktop</string>
 	</array>
 	<key>keyEquivalent</key>
 	<string>^~I</string>
 	<key>name</key>
-	<string>Ini</string>
+	<string>desktop</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -21,7 +20,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.whitespace.comment.leading.ini</string>
+					<string>punctuation.whitespace.comment.leading.desktop</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -36,46 +35,13 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.comment.ini</string>
+							<string>punctuation.defdesktoption.comment.desktop</string>
 						</dict>
 					</dict>
 					<key>end</key>
 					<string>\n</string>
 					<key>name</key>
-					<string>comment.line.number-sign.ini</string>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>begin</key>
-			<string>(^[ \t]+)?(?=;)</string>
-			<key>beginCaptures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.whitespace.comment.leading.ini</string>
-				</dict>
-			</dict>
-			<key>end</key>
-			<string>(?!\G)</string>
-			<key>patterns</key>
-			<array>
-				<dict>
-					<key>begin</key>
-					<string>;</string>
-					<key>beginCaptures</key>
-					<dict>
-						<key>0</key>
-						<dict>
-							<key>name</key>
-							<string>punctuation.definition.comment.ini</string>
-						</dict>
-					</dict>
-					<key>end</key>
-					<string>\n</string>
-					<key>name</key>
-					<string>comment.line.semicolon.ini</string>
+					<string>comment.line.number-sign.desktop</string>
 				</dict>
 			</array>
 		</dict>
@@ -85,12 +51,12 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.other.definition.ini</string>
+					<string>keyword.other.defdesktoption.desktop</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.separator.key-value.ini</string>
+					<string>punctuation.separator.key-value.desktop</string>
 				</dict>
 			</dict>
 			<key>match</key>
@@ -102,18 +68,18 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.entity.ini</string>
+					<string>punctuation.defdesktoption.entity.desktop</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.entity.ini</string>
+					<string>punctuation.defdesktoption.entity.desktop</string>
 				</dict>
 			</dict>
 			<key>match</key>
 			<string>^(\[)(.*?)(\])</string>
 			<key>name</key>
-			<string>entity.name.section.group-title.ini</string>
+			<string>entity.name.section.group-title.desktop</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -123,7 +89,7 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.string.begin.ini</string>
+					<string>punctuation.defdesktoption.string.begin.desktop</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -133,18 +99,18 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.string.end.ini</string>
+					<string>punctuation.defdesktoption.string.end.desktop</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>string.quoted.single.ini</string>
+			<string>string.quoted.single.desktop</string>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>match</key>
 					<string>\\.</string>
 					<key>name</key>
-					<string>constant.character.escape.ini</string>
+					<string>constant.character.escape.desktop</string>
 				</dict>
 			</array>
 		</dict>
@@ -156,7 +122,7 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.string.begin.ini</string>
+					<string>punctuation.defdesktoption.string.begin.desktop</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -166,16 +132,14 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.string.end.ini</string>
+					<string>punctuation.defdesktoption.string.end.desktop</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>string.quoted.double.ini</string>
+			<string>string.quoted.double.desktop</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>source.ini</string>
-	<key>uuid</key>
-	<string>77DC23B6-8A90-11D9-BAA4-000A9584EC8C</string>
+	<string>source.desktop</string>
 </dict>
 </plist>
